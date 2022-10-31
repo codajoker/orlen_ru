@@ -49111,7 +49111,7 @@ footer {
 }
 @media (max-width: 767px) {
   .post {
-    height: 260px;
+    /* height: 260px; */
   }
   .post .post-wrapper img {
     height: 100%;
