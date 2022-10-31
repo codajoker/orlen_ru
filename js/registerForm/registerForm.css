@@ -1,0 +1,80 @@
+.form-container > div + div {
+    margin-top: 10px;
+}
+
+.form-container {
+    position: relative;
+}
+.reg-form__preloader {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg-form__preloader-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-width: 50px;
+}
+
+.reg-form__preloader.hidden {
+    display: none;
+}
+
+.form_group--name,
+.form_group--email,
+.form_input--group {
+    position: relative;
+}
+
+form .form_group--name input,
+form .form_group--email input,
+form .form_input--group input {
+    border-radius: 0.25rem;
+    width: 100%;
+    height: 45px;
+    background: #f7f7f7;
+    border: 1px solid lightgray;
+    padding: 0 15px;
+    outline: none;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+}
+
+form.form-container button[type="submit"] {
+    transition: all .3s ease;
+    color: #fff;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-weight: 700;
+    font-family: Open Sans, sans-serif;
+    border-radius: 0.25rem;
+    background-color: #f11313;
+    width: 100%;
+}
+form.form-container button[type="submit"]:disabled {
+    opacity: 0.75;
+}
+
+.valid {
+    background-color: rgba(25, 230, 25, 0.3)!important;
+}
+
+.invalid {
+    background-color: rgba(230, 25, 25, 0.3)!important;
+}
+.iti--separate-dial-code {
+    width: 100%;
+}
