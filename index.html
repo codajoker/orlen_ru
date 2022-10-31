@@ -32,7 +32,6 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
-    <link rel="stylesheet" href="css/ion.rangeSlider.min.css" />
     <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
 
     <link rel="stylesheet" href="js/videoJS/video-js.css" />
@@ -41,6 +40,9 @@
       rel="stylesheet"
       href="js/registerForm/intlTelInput/css/intlTelInput.css"
     />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+   
     <link rel="stylesheet" href="js/registerForm/registerForm.css" />
     <style>
       .block-post {
@@ -6132,94 +6134,9 @@
                 <label class="block text-center font-bold mb-2"
                   >Ваши инвестиции</label
                 >
-                <span class="irs irs--round js-irs-0 irs-with-grid"
-                  ><span class="irs"
-                    ><span class="irs-line" tabindex="0"></span
-                    ><span class="irs-min" style="visibility: hidden"
-                      >190 ЕUR</span
-                    ><span class="irs-max" style="visibility: visible"
-                      >212 000+ EUR</span
-                    ><span class="irs-from" style="visibility: hidden">0</span
-                    ><span class="irs-to" style="visibility: hidden">0</span
-                    ><span class="irs-single" style="left: -7.6107%"
-                      >190 ЕUR</span
-                    ></span
-                  ><span
-                    class="irs-grid"
-                    style="width: 91.1439%; left: 4.32804%"
-                    ><span class="irs-grid-pol" style="left: 0%"></span
-                    ><span
-                      class="irs-grid-text js-grid-text-0"
-                      style="left: 0%; margin-left: -5.11127%"
-                      >190</span
-                    ><span class="irs-grid-pol small" style="left: 20%"></span
-                    ><span class="irs-grid-pol small" style="left: 15%"></span
-                    ><span class="irs-grid-pol small" style="left: 10%"></span
-                    ><span class="irs-grid-pol small" style="left: 5%"></span
-                    ><span class="irs-grid-pol" style="left: 25%"></span
-                    ><span
-                      class="irs-grid-text js-grid-text-1"
-                      style="
-                        left: 25%;
-                        visibility: visible;
-                        margin-left: -9.7786%;
-                      "
-                      >52 000</span
-                    ><span class="irs-grid-pol small" style="left: 45%"></span
-                    ><span class="irs-grid-pol small" style="left: 40%"></span
-                    ><span class="irs-grid-pol small" style="left: 35%"></span
-                    ><span class="irs-grid-pol small" style="left: 30%"></span
-                    ><span class="irs-grid-pol" style="left: 50%"></span
-                    ><span
-                      class="irs-grid-text js-grid-text-2"
-                      style="
-                        left: 50%;
-                        visibility: visible;
-                        margin-left: -9.7786%;
-                      "
-                      >106 000</span
-                    ><span class="irs-grid-pol small" style="left: 70%"></span
-                    ><span class="irs-grid-pol small" style="left: 65%"></span
-                    ><span class="irs-grid-pol small" style="left: 60%"></span
-                    ><span class="irs-grid-pol small" style="left: 55%"></span
-                    ><span class="irs-grid-pol" style="left: 75%"></span
-                    ><span
-                      class="irs-grid-text js-grid-text-3"
-                      style="
-                        left: 75%;
-                        visibility: visible;
-                        margin-left: -9.7786%;
-                      "
-                      >159 000</span
-                    ><span class="irs-grid-pol small" style="left: 95%"></span
-                    ><span class="irs-grid-pol small" style="left: 90%"></span
-                    ><span class="irs-grid-pol small" style="left: 85%"></span
-                    ><span class="irs-grid-pol small" style="left: 80%"></span
-                    ><span class="irs-grid-pol" style="left: 100%"></span
-                    ><span
-                      class="irs-grid-text js-grid-text-4"
-                      style="left: 100%; margin-left: -11.7793%"
-                      >212 000</span
-                    ></span
-                  ><span
-                    class="irs-bar irs-bar--single"
-                    style="left: 0px; width: 4.42804%"
-                  ></span
-                  ><span
-                    class="irs-shadow shadow-single"
-                    style="display: none"
-                  ></span
-                  ><span class="irs-handle single" style="left: 0%"
-                    ><i></i><i></i><i></i></span></span
-                ><input
-                  type="text"
-                  class="js-range-slider"
-                  style="display: none"
-                  name="my_range"
-                  value="150"
-                  tabindex="-1"
-                  readonly=""
-                />
+             
+                    <input type="text" class="js-range-slider" name="my_range" value="" />
+
               </div>
               <div class="flex flex-col mb-5">
                 <label class="block text-center font-bold">Ваша прибыль</label>
@@ -6248,108 +6165,47 @@
         <div class="w-full sm:flex sm:flex-col">
           <div class="inline-block sm:float-none sm:-ml-4 sm:w-screen w-1/2">
             <div class="license-block">
-              <div class="s-carousel slick-initialized slick-slider">
-                <button
-                  type="button"
-                  class="slick-prev pull-left slick-arrow"
-                  
-                >
-                  <img src="img/arrow.png" alt="" />
-                </button>
-                <div class="slick-list draggable">
-                  <div class="slick-track" style="opacity: 1; width: 1500px">
-                    <a
-                      data-fancybox="gallery"
-                      class="license-img fancy-img slick-slide slick-current slick-active"
-                      href="img/11.png"
-                      data-slick-index="0"
-                      aria-hidden="false"
-                      tabindex="0"
-                      style="
-                        width: 375px;
-                        position: relative;
-                        left: 0px;
-                        top: 0px;
-                        z-index: 999;
-                        opacity: 1;
-                      "
-                    >
-                      <img
-                        src="img/11.png"
-                        alt="Лицензия"
-                        class="w-1/2 mx-auto"
-                      /> </a
-                    ><a
-                      data-fancybox="gallery"
-                      class="license-img fancy-img slick-slide"
-                      href="img/12.png"
-                      data-slick-index="1"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      style="
-                        width: 375px;
-                        position: relative;
-                        left: -375px;
-                        top: 0px;
-                        z-index: 998;
-                        opacity: 0;
-                      "
-                    >
-                      <img
-                        src="img/12.png"
-                        alt="Лицензия"
-                        class="w-1/2 mx-auto"
-                      /> </a
-                    ><a
-                      data-fancybox="gallery"
-                      class="license-img fancy-img slick-slide"
-                      href="img/13.png"
-                      data-slick-index="2"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      style="
-                        width: 375px;
-                        position: relative;
-                        left: -750px;
-                        top: 0px;
-                        z-index: 998;
-                        opacity: 0;
-                      "
-                    >
-                      <img
-                        src="img/13.png"
-                        alt="Лицензия"
-                        class="w-1/2 mx-auto"
-                      /> </a
-                    ><a
-                      data-fancybox="gallery"
-                      class="license-img fancy-img slick-slide"
-                      href="img/14.png"
-                      data-slick-index="3"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      style="
-                        width: 375px;
-                        position: relative;
-                        left: -1125px;
-                        top: 0px;
-                        z-index: 998;
-                        opacity: 0;
-                      "
-                    >
-                      <img
-                        src="img/14.png"
-                        alt="Лицензия"
-                        class="w-1/2 mx-auto"
-                      />
-                    </a>
-                  </div>
-                </div>
-
-                <button type="button" class="slick-next pull-right slick-arrow">
-                  <img src="img/arrow1.png" alt="" />
-                </button>
-              </div>
+                <a data-fancybox="gallery" class="license-img fancy-img slick-slide slick-current slick-active" href="img/11.png"
+                  data-slick-index="0" aria-hidden="false" tabindex="0" style="
+                                        width: 375px;
+                                        position: relative;
+                                        left: 0px;
+                                        top: 0px;
+                                        z-index: 999;
+                                        opacity: 1;
+                                      ">
+                  <img src="img/11.png" alt="Лицензия" class="w-1/2 mx-auto" /> </a><a data-fancybox="gallery"
+                  class="license-img fancy-img slick-slide" href="img/12.png" data-slick-index="1" aria-hidden="true" tabindex="-1"
+                  style="
+                                        width: 375px;
+                                        position: relative;
+                                        left: -375px;
+                                        top: 0px;
+                                        z-index: 998;
+                                        opacity: 0;
+                                      ">
+                  <img src="img/12.png" alt="Лицензия" class="w-1/2 mx-auto" /> </a><a data-fancybox="gallery"
+                  class="license-img fancy-img slick-slide" href="img/13.png" data-slick-index="2" aria-hidden="true" tabindex="-1"
+                  style="
+                                        width: 375px;
+                                        position: relative;
+                                        left: -750px;
+                                        top: 0px;
+                                        z-index: 998;
+                                        opacity: 0;
+                                      ">
+                  <img src="img/13.png" alt="Лицензия" class="w-1/2 mx-auto" /> </a><a data-fancybox="gallery"
+                  class="license-img fancy-img slick-slide" href="img/14.png" data-slick-index="3" aria-hidden="true" tabindex="-1"
+                  style="
+                                        width: 375px;
+                                        position: relative;
+                                        left: -1125px;
+                                        top: 0px;
+                                        z-index: 998;
+                                        opacity: 0;
+                                      ">
+                  <img src="img/14.png" alt="Лицензия" class="w-1/2 mx-auto" />
+                </a>
             </div>
           </div>
         </div>
@@ -10677,10 +10533,17 @@ PKN ORLEN — одна из крупнейших листинговых комп
         </div>
       </div>
     </footer>
-    <script src="js/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <script src="js/videoJS/video.js"></script>
-    <script src="js/ion.rangeSlider.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+
+    <script src="js/ion.rangeSlider.min.js">  
+
+</script>
     <script src="js/jquery.fancybox.min.js"></script>
+
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
@@ -10707,8 +10570,33 @@ PKN ORLEN — одна из крупнейших листинговых комп
         return Math.round(rand);
       }
       randMan.innerText = randomInteger(100, 200);
+        $(function () {
+          console.log($(".js-range-slider"));
+          $(".js-range-slider").ionRangeSlider({
+            skin: "round",
+            min: 190,
+            max: 212000,
+            from: 190,
+            max_postfix: "+",
+            postfix: "EUR",
+            grid: true,
+            onStart: function (data) {
+              $("#calcResult").text(
+                Math.round(data.from * 0.32 + data.from) + " EUR"
+              );
+            },
+            onChange: function (data) {
+              $("#calcResult").text(
+                Math.round(data.from * 0.32 + data.from) + " EUR"
+              );
+            },
+          });
+        });
 
-      $(".s-carousel").slick({
+
+
+
+      $(".license-block").slick({
         dots: false,
         infinite: true,
         speed: 300,
@@ -10725,27 +10613,7 @@ PKN ORLEN — одна из крупнейших листинговых комп
           "<button type='button' class='slick-next pull-right slick-arrow'><img src='img/arrow1.png' alt=''></button>",
       });
 
-      $(function () {
-        $(".js-range-slider").ionRangeSlider({
-          skin: "round",
-          min: 900,
-          max: 1000000,
-          from: 900,
-          max_postfix: "+",
-          postfix: " PLN",
-          grid: true,
-          onStart: function (data) {
-            $("#calcResult").text(
-              Math.round(data.from * 0.32 + data.from) + " PLN"
-            );
-          },
-          onChange: function (data) {
-            $("#calcResult").text(
-              Math.round(data.from * 0.32 + data.from) + " PLN"
-            );
-          },
-        });
-      });
+
     </script>
 
     <script>
