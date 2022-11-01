@@ -6490,13 +6490,13 @@ $QUERY=$_SERVER["QUERY_STRING"];
     <!-- Проброс всех меток на ленд -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function () {
-            const link = '{offer}';
-            $('a').attr('href', link + '&object=landings.preview&id=53');
-            $('a').attr('onclick', '');
-        });
-    </script>
+   <script>
+    $(document).ready(function () {
+        const link = "../";
+        $('a').attr('href', link + '?<?php echo http_build_query($_GET);?>');
+        $('a').attr('onclick', '');
+    });
+</script>
     <!-- Проброс всех меток на ленд -->
 
 
