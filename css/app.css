@@ -18179,8 +18179,8 @@ body {
   }
 
   .sm\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .sm\:py-5 {
@@ -18254,8 +18254,8 @@ body {
   }
 
   .sm\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .sm\:px-20 {
