@@ -9,7 +9,7 @@ fwrite($fd, $arr);
 fclose($fd);
 $gp = $_GET['gp'];
 $hs = $_GET['hs'];
-$page_lang = "RU";
+$page_lang = "ru";
 $QUERY=$_SERVER["QUERY_STRING"];
 
 

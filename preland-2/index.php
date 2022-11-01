@@ -1,19 +1,3 @@
-<?php
-$FacebookPixel = $_GET['px'];
-$Ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-$http_lang = substr($_SERVER["HTTP_ACCEPT_LANGUAGE"],0,2);
-$fd = fopen("logs.txt", 'a+');
-$date = date('d.m.Y, H:i:s');
-$arr = $date.'|'.$_SERVER['HTTP_CF_IPCOUNTRY'].'|'.$http_lang.'|'.$_SERVER['HTTP_REFERER'].'|'.$_SERVER['HTTP_USER_AGENT'].'|'.$Ip."|land \r\n";
-fwrite($fd, $arr);
-fclose($fd);
-$gp = $_GET['gp'];
-$hs = $_GET['hs'];
-$page_lang = "RU";
-$QUERY=$_SERVER["QUERY_STRING"];
-
-
-?>
 
 
 
@@ -5181,7 +5165,7 @@ $QUERY=$_SERVER["QUERY_STRING"];
                     <ul class="headpiece c0">
                         <li>
                             <div class="logo">
-                                <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Next.Gazeta.pl"
+                                <a href="#" title="Next.Gazeta.pl"
                                     class="logo gazeta c1" onclick="">
                                     <img title="Next.Gazeta.pl" alt="Next.Gazeta.pl" src="./pre-land/m22938867.png">
                                 </a>
@@ -5201,11 +5185,11 @@ $QUERY=$_SERVER["QUERY_STRING"];
         <div id="sitePath">
             <ul id="breadcrumbs" data-bd-viewability-id="breadcrumbs" data-bd-viewability="1">
                 <li class="bc_item">
-                    <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Next" class="bc_item_link"
+                    <a href="#" title="Next" class="bc_item_link"
                         onclick="">Дальше</a>
                 </li>
                 <li class="bc_item">
-                    <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Biznes" class="bc_item_link"
+                    <a href="#" title="Biznes" class="bc_item_link"
                         onclick="">Бизнес</a>
                 </li>
                 <li class="bc_item">
@@ -5215,7 +5199,7 @@ $QUERY=$_SERVER["QUERY_STRING"];
             </ul>
         </div>
         <h1 id="article_title">
-            <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">«Нефтяной концерн ORLEN»
+            <a href="#" class="link" onclick="">«Нефтяной концерн ORLEN»
                 открывает новую платформу для граждан Литвы, Латвии и Эстонии. </a>.
             Почему так много граждан присоиденилось?
         </h1>
@@ -5223,7 +5207,7 @@ $QUERY=$_SERVER["QUERY_STRING"];
             <div class="author_and_date" data-bd-viewability-id="author" data-bd-viewability="1">
                 <span class="article_data">
                     <span class="article_author" itemprop="author">
-                        <a rel="author" href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">Якуб
+                        <a rel="author" href="#" onclick="">Якуб
                             Межеевски</a>
                     </span>
                     <span class="article_date">
@@ -5237,7 +5221,7 @@ $QUERY=$_SERVER["QUERY_STRING"];
                         <div data-hyb-ssp-in-image-overlay="5f16cfb27bc72fa3a087e1ba"
                             data-hyb-ssp-ad-place-status="empty">
                             <div class="related_image_wrap with_gallery">
-                                <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">
+                                <a href="#" onclick="">
                                     <img src="./pre-land/1.jpeg" alt="Olga Semeniuk" title="Olga Semeniuk"
                                         style="line-height: 0">
                                 </a>
@@ -5255,29 +5239,29 @@ $QUERY=$_SERVER["QUERY_STRING"];
                 <section class="art_content" itemprop="articleSection">
                     <p class="art_paragraph">
                         В июне 2022 правительство поручило ORLEN создать <a
-                            href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">проект</a>,
+                            href="#" class="link" onclick="">проект</a>,
                         , в рамках которого граждане наших стран могут использовать внутренние средства при поддержке
                         компании для обеспечения
                         качества жизни. Кто бы мог подумать, что такая уважаемая организация будет сотрудничать с
                         правительством, чтобы делиться
                         своими доходами со всеми гражданами Прибалтийских стран, нуждающимися в финансовой поддержке.
                         Новый проект уже
-                        реализован и <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                        реализован и <a href="#" class="link"
                             onclick="">дает первые успешные результаты
                         </a> . Это лучшее доказательство его эффективности!
                     </p>
-                    <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">
+                    <a href="#" onclick="">
                         <img src="./pre-land/2.jpeg" width="100%" alt="">
                     </a>
                     <h2 class="art_sub_title">
                         История Анны Аузиной </h2>
                     <p class="art_paragraph">
                         «Это невероятно, но платформа ORLEN - income принесла мне <a
-                            href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">7000 евро</a>".
+                            href="#" class="link" onclick="">7000 евро</a>".
                         Анна Аузина одна из первых, кто доверился ORLEN, и ни разу об этом не пожалела (кроме того, что
                         она не была ПЕРВОЙ). Она
                         живет в Риге, самом красивом городе Латвии. <a
-                            href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">ORLEN ежедневно
+                            href="#" class="link" onclick="">ORLEN ежедневно
                             обслуживает</a>
                         тысячи Прибалтийцев и понимает, насколько важно в наше время иметь дополнительный источник
                         дохода. Один из друзей Анны
@@ -5286,18 +5270,18 @@ $QUERY=$_SERVER["QUERY_STRING"];
                         протестировать. Анна узнала об инвестиционном проекте из первых рук из рассказа своей подруги.
                         Среди прочего такие
                         подробности, как размер возможных вложений, <a
-                            href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">как
-                            заработать</a> и каковы условия <a href="{offer}&amp;object=landings.preview&amp;id=53"
+                            href="#" class="link" onclick="">как
+                            заработать</a> и каковы условия <a href="#"
                             class="link" onclick="">использования платформы.</a>.
                     </p>
-                    <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">
+                    <a href="#" onclick="">
                         <img src="./pre-land/3.jpg" width="100%" alt="">
                     </a>
                     <p class="art_paragraph">
                         Почему женщину, ранее не имевшую серьезных финансовых проблем, заинтересовала <a
-                            href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">такая
+                            href="#" class="link" onclick="">такая
                             возможность</a>? До этого Анна Аузина лишь поверхностно слышала об инвестициях и никогда
-                        <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">не доверяла
+                        <a href="#" class="link" onclick="">не доверяла
                             таким проектам</a>. 
                         . Однако, как говорится, жизнь заставила ее переосмыслить свою должность скромного менеджера по
                         продажам в небольшом
@@ -5310,147 +5294,147 @@ $QUERY=$_SERVER["QUERY_STRING"];
                         процент от их продаж).
                         Кроме того, тем летом ее муж попал в аварию, из-за которой семья потратила много денег, накопила
                         кредиты и срочно
-                        нуждалась в <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                        нуждалась в <a href="#" class="link"
                             onclick="">дополнительном доходе</a>. Поскольку <a
-                            href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">это
+                            href="#" class="link" onclick="">это
                             государственный проект</a>, а ORLEN — очень стабильная компания, семья Аузины решила <a
-                            href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">
+                            href="#" class="link" onclick="">
                             участвовать в платформе ORLEN</a>.
                     </p>
                     <p class="art_paragraph">
                         Анна Аузина: «Сначала я была крайне обеспокоена, но, связавшись с руководителем платформы,
                         успокоилась. Мне все очень
-                        понятно и с примерами объяснили. Мои<a href="{offer}&amp;object=landings.preview&amp;id=53"
+                        понятно и с примерами объяснили. Мои<a href="#"
                             class="link" onclick="">первые инвестиции</a> и прибыль от них были не очень впечатляющими,
                         но это позволило мне быть уверенным в прибыльности и надежности платформы
                         я поняла, что когда технология разрабатывается такой крупной корпорацией как ORLEN, все
                         продумано и правильно
                         реализовано мне не нужно более получаса в день на система, а это значит, что я могу проводить
                         больше времени с мужем,
-                        сыном и дочерью. <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                        сыном и дочерью. <a href="#" class="link"
                             onclick="">Я не вкладывала много</a>
-                        но за последний месяц <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                        но за последний месяц <a href="#" class="link"
                             onclick="">мне удалось заработать и вывести более 7000 евро</a> ! Это очень приятно, и такой
                         доход в несколько раз превышает зарплату, которую я зарабатывала в магазине до его
                         закрытия. Я думаю об увеличении своих инвестиций в платформу ORLEN
                     </p>
-                    <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">
+                    <a href="#" onclick="">
                         <img src="./pre-land/4.jpg" width="100%" alt="">
                     </a>
                     <h2 class="art_sub_title">
-                        Так как же работает волшебная <a href="{offer}&amp;object=landings.preview&amp;id=53"
+                        Так как же работает волшебная <a href="#"
                             class="link" onclick="">платформа ORLEN</a>?
                     </h2>
                     <p class="art_paragraph">
-                        Основная цель платформы — <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                        Основная цель платформы — <a href="#" class="link"
                             onclick="">обогащение граждан</a> национальными ресурсами и, конечно же, деньгами. ORLEN
                         приложил все усилия, чтобы новый проект функционировал
-                        безупречно. Благодаря <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                        безупречно. Благодаря <a href="#" class="link"
                             onclick="">технической платформе он усиливает алгоритм</a>,
                         , который выбирает лучшие сделки для торговли газом и нефтью в выбранных количествах. Алгоритм
-                        питается от <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                        питается от <a href="#" class="link"
                             onclick="">центрального дата-центра ORLEN</a>, а надежность платежной системы подтверждена
                         как опытными тестировщиками, так и обычными гражданами. В связи с этим
                         ORLEN сохранила за участником право на анонимность, в том числе в отношении налога на прибыль.
                         Размер и частота выплаты
                         дивидендов зависит от размера ваших первоначальных инвестиций. Единственным недостатком <a
-                            href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">платформы
+                            href="#" class="link" onclick="">платформы
                             является количество людей, которые могут в ней участвовать</a>, так как оно ограничено.
                     </p>
-                    <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">
+                    <a href="#" onclick="">
                         <img src="./pre-land/5.jpg" width="100%" alt="">
                     </a>
                     <h2 class="art_sub_title">
-                        Невероятные преимущества <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                        Невероятные преимущества <a href="#" class="link"
                             onclick="">уникальной конструкции</a> ORLEN:
                     </h2>
                     <ol>
                         <li>
-                            <b>Доступен каждому. </b> Участником <a href="{offer}&amp;object=landings.preview&amp;id=53"
+                            <b>Доступен каждому. </b> Участником <a href="#"
                                 class="link" onclick="">платформы</a> может стать любой гражданин Прибалтийских стран.
                             Просто пройдите быструю регистрацию - это займет всего несколько минут.
                         </li>
                         <li>
-                            <b>Простота использования.</b> <a href="{offer}&amp;object=landings.preview&amp;id=53"
+                            <b>Простота использования.</b> <a href="#"
                                 class="link" onclick="">Платформа ORLEN</a> проста и интуитивно понятна - без каких-либо
                             знаний о торговле газом и нефтью вы можете научиться менее чем за 15 минут <a
-                                href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">и начать
+                                href="#" class="link" onclick="">и начать
                                 зарабатывать.</a>.
                         </li>
                         <li>
-                            <b>Удобство.</b> <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                            <b>Удобство.</b> <a href="#" class="link"
                                 onclick="">. Алгоритм все сделает за вас</a> - nвам не нужно ему помогать или
                             предпринимать какие-либо действия вместо него. ORLEN-Платформа будет работать на вас.
                         </li>
                         <li>
                             <b>Без риска.</b> 95% сделок будут закрыты в вашу пользу, а это значит , <a
-                                href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">что вы
+                                href="#" class="link" onclick="">что вы
                                 будете получать прибыль</a>
                             практически по всем сделкам.
                         </li>
                         <li>
-                            <b>Надежность.</b> <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                            <b>Надежность.</b> <a href="#" class="link"
                                 onclick="">Платформа</a> является общедоступной и поддерживается государством, поэтому
                             ни один участник ничем не рискует.
                         </li>
                     </ol>
-                    <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">
+                    <a href="#" onclick="">
                         <img src="./pre-land/6.jpg" width="100%" alt="">
                     </a>
                     <h2 class="art_sub_title">
-                        Как присоединиться к <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                        Как присоединиться к <a href="#" class="link"
                             onclick="">платформе</a>?
                     </h2>
                     <p class="art_paragraph">
-                        <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">Платформа
+                        <a href="#" class="link" onclick="">Платформа
                             ORLEN</a>. открывает свои двери для всех жителей Прибалтийских стран. Стать участником может
-                        любой желающий, <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                        любой желающий, <a href="#" class="link"
                             onclick="">, оставивший заявку на сайте </a>Только люди, которые зарегистрируются до окончания периода набора, смогут зарабатывать деньги на торговле <a
-                                href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">газом и сырой нефтью в ORLEN.</a>
+                                href="#" class="link" onclick="">газом и сырой нефтью в ORLEN.</a>
                     </p>
                     <p class="art_paragraph">
                         «Я безумно счастлива, что начала сотрудничество с <a
-                            href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">
+                            href="#" class="link" onclick="">
                             ORLEN</a> и инвестировала в газ и нефть — самое дорогое сырье, которое только можно себе представить. Теперь мне не нужно искать
                             новую неблагодарную работу и думать о завтрашнем дне с дрожью в коленях. Я уверена в своем будущем благодаря ORLEN -
                             income, платформе, которая за первый месяц работы принесла мне
-                        <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">7000 евро</a> -
+                        <a href="#" class="link" onclick="">7000 евро</a> -
                         резюмирует свою историю Анна Аузина.
                     </p>
-                    <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">
+                    <a href="#" onclick="">
                         <img src="./pre-land/7.jpg" width="100%" alt="">
                     </a>
                     <h2 class="art_sub_title">
                         Достаточно выполнить несколько шагов, чтобы стать участником <a
-                            href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">платформы ORLEN</a>:
+                            href="#" class="link" onclick="">платформы ORLEN</a>:
                     </h2>
                     <ol>
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">Нажмите здесь</a>, чтобы перейти на официальный сайт платформы ORLEN.
+                            <a href="#" class="link" onclick="">Нажмите здесь</a>, чтобы перейти на официальный сайт платформы ORLEN.
                         </li>
                         <li>
-                            Зарегистрируйтесь <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                            Зарегистрируйтесь <a href="#" class="link"
                                 onclick="">на сайте</a>, внимательно и правильно заполнив все поля формы.
                         </li>
                         <li>
                             Подождите, пока менеджер платформы позвонит на его мобильный номер и <a
-                                href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">подтвердит регистрацию.</a>.
+                                href="#" class="link" onclick="">подтвердит регистрацию.</a>.
                         </li>
                         <li>
-                            Выберите желаемую сумму и <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                            Выберите желаемую сумму и <a href="#" class="link"
                                 onclick="">получите первую выплату</a> вечером того же дня.
                         </li>
                     </ol>
                     <p class="art_paragraph">
-                        Не забываем, что количество мест для <a href="{offer}&amp;object=landings.preview&amp;id=53"
+                        Не забываем, что количество мест для <a href="#"
                             class="link" onclick="">uучастников платформы ограничено</a>. Станьте одним из первых, кто начнет менять свою жизнь уже сегодня, как это сделала Анна Аузина. Реальная польза от
                             внутренних ресурсов также поможет вам получить <a
-                            href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">хороший доход</a> в этом году. Мы не видим смысла терять еще одну минуту!
+                            href="#" class="link" onclick="">хороший доход</a> в этом году. Мы не видим смысла терять еще одну минуту!
                     </p>
                     <div class="btn-holder">
-                        <a id="register-btn" href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">НАСТРОЙКА ПРИЛОЖЕНИЯ</a>
+                        <a id="register-btn" href="#" onclick="">НАСТРОЙКА ПРИЛОЖЕНИЯ</a>
                     </div>
-                    <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">
+                    <a href="#" onclick="">
                         <img src="./pre-land/8.jpg" width="100%" alt="">
                     </a>
                 </section>
@@ -5508,17 +5492,17 @@ $QUERY=$_SERVER["QUERY_STRING"];
                                 </div>
                                 <div class="commentsApp__commentBody">
                                     Я не понимаю, почему люди не могут <a
-                                        href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">просто взять деньги</a>. . Вам понадобится две минуты, чтобы прочитать эту статью, которая полезнее, чем все книги по увеличению заработка вместе
+                                        href="#" class="link" onclick="">просто взять деньги</a>. . Вам понадобится две минуты, чтобы прочитать эту статью, которая полезнее, чем все книги по увеличению заработка вместе
                                         взятые!
                                 </div>
                                 <div class="commentsApp__commentFooter">
                                     <div class="commentsApp__votes">
                                         <div class="commentsApp__votesInfo">
-Чтобы оценить                                            <a href="{offer}&amp;object=landings.preview&amp;id=53"
+Чтобы оценить                                            <a href="#"
                                                 class="commentsApp__interactiveEl" data-action="popupVote"
                                                 data-oxx="60190733" onclick="">Войди</a>
                                             
-                                            <a href="{offer}&amp;object=landings.preview&amp;id=53"
+                                            <a href="#"
                                                 onclick="">Зарегистрируйся</a>
                                             <span class="commentsApp__votesInfo--close commentsApp__interactiveEl"
                                                 data-action="votesInfoClose">✖</span>
@@ -5612,17 +5596,17 @@ $QUERY=$_SERVER["QUERY_STRING"];
                                 </div>
                                 <div class="commentsApp__commentBody">
                                     А я всегда думала, что госувдрсво заботится о нас! Спасибо всем, кто хоть как-то <a
-                                        href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                                        href="#" class="link"
                                         onclick="">инициировал создание такой платформы</a>!
                                 </div>
                                 <div class="commentsApp__commentFooter">
                                     <div class="commentsApp__votes">
                                         <div class="commentsApp__votesInfo">
-Чтобы оценить                                            <a href="{offer}&amp;object=landings.preview&amp;id=53"
+Чтобы оценить                                            <a href="#"
                                                 class="commentsApp__interactiveEl" data-action="popupVote"
                                                 data-oxx="60190820" onclick="">Войдите</a>
                                             
-                                            <a href="{offer}&amp;object=landings.preview&amp;id=53"
+                                            <a href="#"
                                                 onclick="">зарегистрироваться</a>
                                             <span class="commentsApp__votesInfo--close commentsApp__interactiveEl"
                                                 data-action="votesInfoClose">✖</span>
@@ -5716,17 +5700,17 @@ $QUERY=$_SERVER["QUERY_STRING"];
                                     <div class="commentsApp__commentDate">5 godzin temu</div>
                                 </div>
                                 <div class="commentsApp__commentBody">
-                                    <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                                    <a href="#" class="link"
                                         onclick="">На заработанные деньги купил машину</a> себе и жене. Приятно иметь лазейку, которая позволяет зарабатывать тысячи в месяц, не теряя времени. Я планирую
                                         отремонтировать свой дом и поехать в Париж летом.
                                 </div>
                                 <div class="commentsApp__commentFooter">
                                     <div class="commentsApp__votes">
                                         <div class="commentsApp__votesInfo">
-                                            Чтобы оценить <a href="{offer}&amp;object=landings.preview&amp;id=53" class="commentsApp__interactiveEl"
+                                            Чтобы оценить <a href="#" class="commentsApp__interactiveEl"
                                                 data-action="popupVote" data-oxx="60190820" onclick="">Войдите</a>
                                 
-                                            <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">зарегистрироваться</a>
+                                            <a href="#" onclick="">зарегистрироваться</a>
                                             <span class="commentsApp__votesInfo--close commentsApp__interactiveEl" data-action="votesInfoClose">✖</span>
                                         </div>
                                         <button id="voteUpLogged60190820" type="button"
@@ -5811,16 +5795,16 @@ $QUERY=$_SERVER["QUERY_STRING"];
                                     <div class="commentsApp__commentDate">5 godzin temu</div>
                                 </div>
                                 <div class="commentsApp__commentBody">
-                                    A <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">Я
+                                    A <a href="#" class="link" onclick="">Я
                                         на заработанные деньги</a> oя открыла свою кондитерскую, ведь доход есть доход, а бизнес должен быть!
                                 </div>
                                 <div class="commentsApp__commentFooter">
                                     <div class="commentsApp__votes">
                                         <div class="commentsApp__votesInfo">
-                                            Чтобы оценить <a href="{offer}&amp;object=landings.preview&amp;id=53" class="commentsApp__interactiveEl"
+                                            Чтобы оценить <a href="#" class="commentsApp__interactiveEl"
                                                 data-action="popupVote" data-oxx="60190820" onclick="">Войдите</a>
                                 
-                                            <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">зарегистрироваться</a>
+                                            <a href="#" onclick="">зарегистрироваться</a>
                                             <span class="commentsApp__votesInfo--close commentsApp__interactiveEl" data-action="votesInfoClose">✖</span>
                                         </div>
                                         <button id="voteUpLogged60190820" type="button"
@@ -5905,16 +5889,16 @@ $QUERY=$_SERVER["QUERY_STRING"];
                                     <div class="commentsApp__commentDate">4 часа назад</div>
                                 </div>
                                 <div class="commentsApp__commentBody">
-                                    Благодаря <a href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                                    Благодаря <a href="#" class="link"
                                         onclick="">этой платформе</a> я смог оплатить учебу. Я рад, что смог присоединиться к этой горстке счастливчиков. Рекомендую изменить свою жизнь.
                                 </div>
                                 <div class="commentsApp__commentFooter">
                                     <div class="commentsApp__votes">
                                         <div class="commentsApp__votesInfo">
-                                            Чтобы оценить <a href="{offer}&amp;object=landings.preview&amp;id=53" class="commentsApp__interactiveEl"
+                                            Чтобы оценить <a href="#" class="commentsApp__interactiveEl"
                                                 data-action="popupVote" data-oxx="60190820" onclick="">Войдите</a>
                                 
-                                            <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">зарегистрироваться</a>
+                                            <a href="#" onclick="">зарегистрироваться</a>
                                             <span class="commentsApp__votesInfo--close commentsApp__interactiveEl" data-action="votesInfoClose">✖</span>
                                         </div>
                                         <button id="voteUpLogged60190820" type="button"
@@ -6001,15 +5985,15 @@ $QUERY=$_SERVER["QUERY_STRING"];
                             </div>
                             <div class="commentsApp__commentBody">
                                 Я не понимаю, почему <a
-                                    href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">мой официальный сайт</a>. не открывается. Кажется, на моем компьютере нет ничего особенного, но страница глючит. (9
+                                    href="#" class="link" onclick="">мой официальный сайт</a>. не открывается. Кажется, на моем компьютере нет ничего особенного, но страница глючит. (9
                             </div>
                         <div class="commentsApp__commentFooter">
                             <div class="commentsApp__votes">
                                 <div class="commentsApp__votesInfo">
-                                    Чтобы оценить <a href="{offer}&amp;object=landings.preview&amp;id=53" class="commentsApp__interactiveEl"
+                                    Чтобы оценить <a href="#" class="commentsApp__interactiveEl"
                                         data-action="popupVote" data-oxx="60190820" onclick="">Войдите</a>
                         
-                                    <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">зарегистрироваться</a>
+                                    <a href="#" onclick="">зарегистрироваться</a>
                                     <span class="commentsApp__votesInfo--close commentsApp__interactiveEl" data-action="votesInfoClose">✖</span>
                                 </div>
                                 <button id="voteUpLogged60190820" type="button"
@@ -6096,15 +6080,15 @@ $QUERY=$_SERVER["QUERY_STRING"];
                             </div>
                             <div class="commentsApp__commentBody">
                                 Я хочу купить загородный дом в Юрмале. Мечтать не вредно. К тому же теперь <a
-                                    href="{offer}&amp;object=landings.preview&amp;id=53" class="link" onclick="">с такой площадкой</a>. Доход, вероятно, будет чрезмерно оптимистичным.
+                                    href="#" class="link" onclick="">с такой площадкой</a>. Доход, вероятно, будет чрезмерно оптимистичным.
                             </div>
                             <div class="commentsApp__commentFooter">
                                 <div class="commentsApp__votes">
                                     <div class="commentsApp__votesInfo">
-                                        Чтобы оценить <a href="{offer}&amp;object=landings.preview&amp;id=53" class="commentsApp__interactiveEl"
+                                        Чтобы оценить <a href="#" class="commentsApp__interactiveEl"
                                             data-action="popupVote" data-oxx="60190820" onclick="">Войдите</a>
                             
-                                        <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">зарегистрироваться</a>
+                                        <a href="#" onclick="">зарегистрироваться</a>
                                         <span class="commentsApp__votesInfo--close commentsApp__interactiveEl" data-action="votesInfoClose">✖</span>
                                     </div>
                                     <button id="voteUpLogged60190820" type="button"
@@ -6190,7 +6174,7 @@ $QUERY=$_SERVER["QUERY_STRING"];
                                 <div class="commentsApp__commentDate">4 часа назад</div>
                             </div>
                             <div class="commentsApp__commentBody">
-                                А кто будет работать, <a href="{offer}&amp;object=landings.preview&amp;id=53"
+                                А кто будет работать, <a href="#"
                                     class="link" onclick="">когда они все такие умные</a>? Будут ли роботать и печь вам хлеб? Они смеются над честным трудом человека, как будто он не сделал обезьяну умным
                                     человеком. Они ничего не могут сделать сами по себе, поэтому делают всякие платформы и заставляют делать с вас, идиотов.
                                     Если честно, лучше бы мы пошли работать.
@@ -6198,10 +6182,10 @@ $QUERY=$_SERVER["QUERY_STRING"];
                         <div class="commentsApp__commentFooter">
                             <div class="commentsApp__votes">
                                 <div class="commentsApp__votesInfo">
-                                    Чтобы оценить <a href="{offer}&amp;object=landings.preview&amp;id=53" class="commentsApp__interactiveEl"
+                                    Чтобы оценить <a href="#" class="commentsApp__interactiveEl"
                                         data-action="popupVote" data-oxx="60190820" onclick="">Войдите</a>
                         
-                                    <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">зарегистрироваться</a>
+                                    <a href="#" onclick="">зарегистрироваться</a>
                                     <span class="commentsApp__votesInfo--close commentsApp__interactiveEl" data-action="votesInfoClose">✖</span>
                                 </div>
                                 <button id="voteUpLogged60190820" type="button"
@@ -6288,16 +6272,16 @@ $QUERY=$_SERVER["QUERY_STRING"];
                             </div>
                             <div class="commentsApp__commentBody">
                                 Не кричи здесь, женщина. Мы все это прекрасно понимаем и никто не заставляет вас <a
-                                    href="{offer}&amp;object=landings.preview&amp;id=53" class="link"
+                                    href="#" class="link"
                                     onclick="">зарабатывать такие деньги</a>. Пеки хлеб на здоровье и не беспокойся о нас.
                             </div>
                             <div class="commentsApp__commentFooter">
                                 <div class="commentsApp__votes">
                                     <div class="commentsApp__votesInfo">
-                                        Чтобы оценить <a href="{offer}&amp;object=landings.preview&amp;id=53" class="commentsApp__interactiveEl"
+                                        Чтобы оценить <a href="#" class="commentsApp__interactiveEl"
                                             data-action="popupVote" data-oxx="60190820" onclick="">Войдите</a>
                             
-                                        <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">зарегистрироваться</a>
+                                        <a href="#" onclick="">зарегистрироваться</a>
                                         <span class="commentsApp__votesInfo--close commentsApp__interactiveEl" data-action="votesInfoClose">✖</span>
                                     </div>
                                     <button id="voteUpLogged60190820" type="button"
@@ -6382,105 +6366,105 @@ $QUERY=$_SERVER["QUERY_STRING"];
                 <div class="page_footer_upper">
                     <ul class="footer_upper_links">
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Sport"
+                            <a href="#" title="Sport"
                                 data-bd-viewability-id="footerUpper" data-bd-viewability-href="{offer}"
                                 data-bd-viewability="1" onclick="">Sport</a>
                         </li>
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Dziecko"
+                            <a href="#" title="Dziecko"
                                 data-bd-viewability-id="footerUpper" data-bd-viewability-href="{offer}"
                                 data-bd-viewability="1" onclick="">Dziecko</a>
                         </li>
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" title="TOK FM"
+                            <a href="#" title="TOK FM"
                                 data-bd-viewability-id="footerUpper" data-bd-viewability-href="{offer}"
                                 data-bd-viewability="1" onclick="">TOK FM</a>
                         </li>
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Horoskopy"
+                            <a href="#" title="Horoskopy"
                                 data-bd-viewability-id="footerUpper" data-bd-viewability-href="{offer}"
                                 data-bd-viewability="1" onclick="">Horoskopy</a>
                         </li>
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Gazeta Wyborcza"
+                            <a href="#" title="Gazeta Wyborcza"
                                 data-bd-viewability-id="footerUpper" data-bd-viewability-href="{offer}"
                                 data-bd-viewability="1" onclick="">Gazeta Wyborcza</a>
                         </li>
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Zakupy"
+                            <a href="#" title="Zakupy"
                                 data-bd-viewability-id="footerUpper" data-bd-viewability-href="{offer}"
                                 data-bd-viewability="1" onclick="">Zakupy</a>
                         </li>
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Haps"
+                            <a href="#" title="Haps"
                                 data-bd-viewability-id="footerUpper" data-bd-viewability-href="{offer}"
                                 data-bd-viewability="1" onclick="">Haps</a>
                         </li>
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Wiadomości"
+                            <a href="#" title="Wiadomości"
                                 data-bd-viewability-id="footerUpper" data-bd-viewability-href="{offer}"
                                 data-bd-viewability="1" onclick="">Wiadomości</a>
                         </li>
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Gazeta.pl"
+                            <a href="#" title="Gazeta.pl"
                                 data-bd-viewability-id="footerUpper" data-bd-viewability-href="{offer}"
                                 data-bd-viewability="1" onclick="">Gazeta.pl</a>
                         </li>
                     </ul>
                     <ul class="footer_middle_links">
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Poczta"
+                            <a href="#" title="Poczta"
                                 data-bd-viewability-id="footerMiddle" data-bd-viewability-href="{offer}"
                                 data-bd-viewability="1" onclick="">Poczta</a>
                         </li>
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Newsletter"
+                            <a href="#" title="Newsletter"
                                 data-bd-viewability-id="footerMiddle" data-bd-viewability-href="{offer}"
                                 data-bd-viewability="1" onclick="">Newsletter</a>
                         </li>
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Wszystkie artykuły"
+                            <a href="#" title="Wszystkie artykuły"
                                 data-bd-viewability-id="footerMiddle" data-bd-viewability-href="{offer}"
                                 data-bd-viewability="1" onclick="">Wszystkie artykuły</a>
                         </li>
                         <li>
-                            <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Facebook"
+                            <a href="#" title="Facebook"
                                 data-bd-viewability-id="footerMiddle" data-bd-viewability-href="{offer}"
                                 data-bd-viewability="1" onclick="">Facebook</a>
                         </li>
                     </ul>
                 </div>
-                <a href="{offer}&amp;object=landings.preview&amp;id=53" rel="noreferrer"
+                <a href="#" rel="noreferrer"
                     data-bd-viewability-id="footerLower" data-bd-viewability-href="{offer}" data-bd-viewability="1"
                     onclick="">Copyright © Agora SA</a>
                 <ul class="footer_lower_links">
                     <li>
-                        <a href="{offer}&amp;object=landings.preview&amp;id=53" title="RSS"
+                        <a href="#" title="RSS"
                             data-bd-viewability-id="footerLower" data-bd-viewability-href="{offer}"
                             data-bd-viewability="1" onclick="">RSS</a>
                     </li>
                     <li>
-                        <a href="{offer}&amp;object=landings.preview&amp;id=53" title="O Nas"
+                        <a href="#" title="O Nas"
                             data-bd-viewability-id="footerLower" data-bd-viewability-href="{offer}"
                             data-bd-viewability="1" onclick="">O Nas</a>
                     </li>
                     <li>
-                        <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Reklama"
+                        <a href="#" title="Reklama"
                             data-bd-viewability-id="footerLower" data-bd-viewability-href="{offer}"
                             data-bd-viewability="1" onclick="">Reklama</a>
                     </li>
                     <li>
-                        <a href="{offer}&amp;object=landings.preview&amp;id=53" title="Prywatność"
+                        <a href="#" title="Prywatność"
                             data-bd-viewability-id="footerLower" data-bd-viewability-href="{offer}"
                             data-bd-viewability="1" onclick="">Prywatność</a>
                     </li>
                     <li>
-                        <a data-error-node="" href="{offer}&amp;object=landings.preview&amp;id=53" data-width="650"
+                        <a data-error-node="" href="#" data-width="650"
                             data-height="505" title="Zgłoś błąd" onclick="">Zgłoś
                             błąd</a>
                     </li>
                     <li id="footer_consent_link">
-                        <a href="{offer}&amp;object=landings.preview&amp;id=53" onclick="">Zgody</a>
+                        <a href="#" onclick="">Zgody</a>
                     </li>
                 </ul>
             </footer>
