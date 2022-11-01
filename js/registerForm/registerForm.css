@@ -1,10 +1,12 @@
-.form-container > div + div {
+
+.form-container>div+div {
     margin-top: 10px;
 }
 
 .form-container {
     position: relative;
 }
+
 .reg-form__preloader {
     position: absolute;
     z-index: 100;
@@ -64,17 +66,19 @@ form.form-container button[type="submit"] {
     background-color: #f11313;
     width: 100%;
 }
+
 form.form-container button[type="submit"]:disabled {
     opacity: 0.75;
 }
 
 .valid {
-    background-color: rgba(25, 230, 25, 0.3)!important;
+    background-color: rgba(25, 230, 25, 0.3) !important;
 }
 
 .invalid {
-    background-color: rgba(230, 25, 25, 0.3)!important;
+    background-color: rgba(230, 25, 25, 0.3) !important;
 }
+
 .iti--separate-dial-code {
     width: 100%;
 }

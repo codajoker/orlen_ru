@@ -12548,6 +12548,7 @@ video {
 
 .w-1\/5 {
   width: 20%;
+  max-height: 120px;
 }
 
 .w-2\/5 {
